@@ -11,6 +11,7 @@ gem 'rails', '~> 5.2.1', '>= 5.2.1.1'
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'will_paginate', '3.1.5'
 gem 'bootstrap-will_paginate', '1.0.0'
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
