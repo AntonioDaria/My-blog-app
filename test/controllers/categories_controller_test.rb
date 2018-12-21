@@ -4,7 +4,6 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
 
   def setup
     @category = Category.create(name: "Food")
-  
   end
 
   test 'should get category index' do
