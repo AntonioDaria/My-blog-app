@@ -1,25 +1,57 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# BumbleBells feedback blog
 
-Things you may want to cover:
+This application has been created for BumbleBells child care to enable the users to have access to a user friendly platform, where they can leave feedback and comments in regards to the service received.
+From the business point of view this blog app it is used to make improvements and act upon feedback received.
 
-* Ruby version
-  - ruby-2.5.1
+Ruby version
+ - ruby '2.5.1'
 
-* System dependencies
+Database
+ - postgresql for production
+ - sqlite 3 for test environment
 
-* Configuration
+```
+Features:
+ - Users can sign up
+ - Users can be given admin access to delete posts, categories and users
+ - Users can log in
+ - Users can also log out
+ - Users can post feedback
+ - Users can post feedback based on categories
+ - Users can view feedback based on categories
+ ```
 
-* Database creation
+Installation Instructions:
+  - Clone The Repo
+  - Install Rails,
+  - Run Bundle Install for all your Gem needs
+  - Run DB:Create
+  - Run DB:Migrate
 
-* Database initialization
+How to Run Locally:
+  - Navigate to project directory
+  - Run Bin/Rails Server
+  - Available on http://localhost:3000/
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Instructions for Testing:
+  - Unit test and integration test created with Rails
+  - To run execute the following command: Rails test
 
-* Deployment instructions
+Instructions for Contributions:
+  - Repeat all installation instructions.
+  - Think of some new Features
+  - Implement them.
+  - Use TDD at all times.
 
-* ...
+Deployed on:
+   https://bumblebells-blog.herokuapp.com/
+
+
+Technologies Used in The Production of Csv Uploader;
+  - Rails with Active Record
+  - Heroku
+  - Rubocop
+  - Bootstrap
+  - Jquery-rails
