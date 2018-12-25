@@ -46,7 +46,7 @@ Instructions for Contributions:
   - Use TDD at all times.
 
 Deployed on:
-   https://bumblebells-blog.herokuapp.com/
+   https://bumble-bells-blog.herokuapp.com/
 
 
 Technologies Used in The Production of Csv Uploader;
